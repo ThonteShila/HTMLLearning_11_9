@@ -1,0 +1,114 @@
+Basic tag:-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample HTML Page</title>
+</head>
+<body>
+    <h1>Welcome to My Sample HTML Page</h1>
+    <p>This is a simple HTML document for learning purposes.</p>
+    <ul>
+        <li>HTML Basics</li>
+        <li>Lists</li>
+        <li>Headings</li>
+        <li>Paragraphs</li>
+    </ul>
+</body>
+</html>
+
+Adding image:-
+<img src="img1.jpg" width="333" height="250">
+
+changing font style:-
+    <p><u><em>hello text here srong change to bold u change underline em italic like it use differe</strong></em></u></p>
+
+inserting video:-
+    video should be present in used directory folder
+    <video width="320" height="240" controls>
+        <source src="milton cooker 1 (1).mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+
+creating link:-
+    to add link on Page
+           <a href="http://www.gooogle.com/"><h2>Go to search</h2></a>
+<a></a>:-click on ling it open description presentin same Page<ul>
+        <li><a href="#Anchortag"> tag</a></li>
+        <li><a href="#syntax">Know how to use it anchor tag</a></li>
+    </ul>
+    <p>
+        <h1><a id="Anchortag"></a>Anchore tag</h1><br>
+        <p>
+            The <a> HTML element (or anchor element), with its href attribute, 
+            creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.
+            Content within each <a> should indicate the link's destination. If the href attribute is present, 
+            pressing the enter key while focused on the <a> element will activate it
+    
+        </p>
+        <h1><a id="syntax"></a>Tag a link syntax</h1>      
+        <p>
+            <a href="">Website</a>
+        </p>
+    </p>
+
+Table tag:-
+
+<table width="100%"cellspacing="4" cellpadding="4" border="4">
+       <tr>
+            <td>
+                <h2>Name</h2>
+            </td>
+        </tr>
+</table>
+    
+Nested table:-
+creating new table inside another table
+
+
+    <table width="100%" border="2" bordercolor="green" cellspacing="4" cellpadding="4">
+        <tr>
+            <td>
+                
+    <table width="100%"cellspacing="4" cellpadding="4" border="4">
+       <tr>
+            <td>
+                <h2>Name</h2>
+            </td>
+            
+            <td>
+                <h2>Address</h2>
+            </td>
+       </tr>     
+       <tr>
+            <td>Shila</td>
+            <td>MGA</td>
+       </tr>    
+
+    </table>
+            </td>
+        </tr>
+    </table>
+
+Merging cell:- joining two columns in single row colspan used.how much 
+    
+    <table width="100%"cellspacing="4" cellpadding="4" border="4">
+       <tr>
+            <td colspan="2"><h1>MyDetails</h1></td>
+        </tr>
+        <tr>...</tr>
+    </table>
+
+Nowrap:-It is used to write text in single row .it shouldnot  be goes too next line.it should be in single line without wrapping
+
+<td colspan="2" nowrap><h1>MyDetails MyDetails is your smart digital identity platform - generate custom QR codes that link to your personalized virtual business card. Share your professional profile, contact information, and social links elegantly in one scan.
+
+www.tcsion.com › hub › national-qualifier-testTCS iON Event Login </h1></td>
+
+Background image in table
+    <table background="https://fileinfo.com/img/ss/xl/jpeg_43-2.jpg" width="100%" border="2" bordercolor="green" cellspacing="4" cellpadding="4">
+
+align:-it is used for alinging content in table in left,right,center
+
+            <td align="center"> 
